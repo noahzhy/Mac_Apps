@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Music_control
+//  MediaControl
 //
 //  Created by Noah on 2024/3/25.
 //

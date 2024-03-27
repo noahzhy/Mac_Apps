@@ -7,62 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7262C6F62BB18C590075B15F /* Music_controlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7262C6F52BB18C590075B15F /* Music_controlApp.swift */; };
+		7262C6F62BB18C590075B15F /* MediaControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7262C6F52BB18C590075B15F /* MediaControlApp.swift */; };
 		7262C6F82BB18C590075B15F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7262C6F72BB18C590075B15F /* ContentView.swift */; };
 		7262C6FA2BB18C5A0075B15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7262C6F92BB18C5A0075B15F /* Assets.xcassets */; };
 		7262C6FE2BB18C5A0075B15F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7262C6FD2BB18C5A0075B15F /* Preview Assets.xcassets */; };
-		7262C7082BB18C5A0075B15F /* Music_controlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7262C7072BB18C5A0075B15F /* Music_controlTests.swift */; };
-		7262C7122BB18C5A0075B15F /* Music_controlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7262C7112BB18C5A0075B15F /* Music_controlUITests.swift */; };
-		7262C7142BB18C5A0075B15F /* Music_controlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7262C7132BB18C5A0075B15F /* Music_controlUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7262C7042BB18C5A0075B15F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7262C6EA2BB18C590075B15F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7262C6F12BB18C590075B15F;
-			remoteInfo = Music_control;
-		};
-		7262C70E2BB18C5A0075B15F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7262C6EA2BB18C590075B15F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7262C6F12BB18C590075B15F;
-			remoteInfo = Music_control;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		7262C6F22BB18C590075B15F /* Music_control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music_control.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7262C6F52BB18C590075B15F /* Music_controlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_controlApp.swift; sourceTree = "<group>"; };
+		7262C6F22BB18C590075B15F /* Media Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7262C6F52BB18C590075B15F /* MediaControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaControlApp.swift; sourceTree = "<group>"; };
 		7262C6F72BB18C590075B15F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7262C6F92BB18C5A0075B15F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7262C6FB2BB18C5A0075B15F /* Music_control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Music_control.entitlements; sourceTree = "<group>"; };
+		7262C6FB2BB18C5A0075B15F /* MediaControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MediaControl.entitlements; sourceTree = "<group>"; };
 		7262C6FD2BB18C5A0075B15F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7262C7032BB18C5A0075B15F /* Music_controlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Music_controlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7262C7072BB18C5A0075B15F /* Music_controlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_controlTests.swift; sourceTree = "<group>"; };
-		7262C70D2BB18C5A0075B15F /* Music_controlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Music_controlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7262C7112BB18C5A0075B15F /* Music_controlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_controlUITests.swift; sourceTree = "<group>"; };
-		7262C7132BB18C5A0075B15F /* Music_controlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_controlUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7262C6EF2BB18C590075B15F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7262C7002BB18C5A0075B15F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7262C70A2BB18C5A0075B15F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,9 +36,7 @@
 		7262C6E92BB18C590075B15F = {
 			isa = PBXGroup;
 			children = (
-				7262C6F42BB18C590075B15F /* Music_control */,
-				7262C7062BB18C5A0075B15F /* Music_controlTests */,
-				7262C7102BB18C5A0075B15F /* Music_controlUITests */,
+				7262C6F42BB18C590075B15F /* MediaControl */,
 				7262C6F32BB18C590075B15F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,23 +44,21 @@
 		7262C6F32BB18C590075B15F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7262C6F22BB18C590075B15F /* Music_control.app */,
-				7262C7032BB18C5A0075B15F /* Music_controlTests.xctest */,
-				7262C70D2BB18C5A0075B15F /* Music_controlUITests.xctest */,
+				7262C6F22BB18C590075B15F /* Media Control.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7262C6F42BB18C590075B15F /* Music_control */ = {
+		7262C6F42BB18C590075B15F /* MediaControl */ = {
 			isa = PBXGroup;
 			children = (
-				7262C6F52BB18C590075B15F /* Music_controlApp.swift */,
+				7262C6F52BB18C590075B15F /* MediaControlApp.swift */,
 				7262C6F72BB18C590075B15F /* ContentView.swift */,
 				7262C6F92BB18C5A0075B15F /* Assets.xcassets */,
-				7262C6FB2BB18C5A0075B15F /* Music_control.entitlements */,
+				7262C6FB2BB18C5A0075B15F /* MediaControl.entitlements */,
 				7262C6FC2BB18C5A0075B15F /* Preview Content */,
 			);
-			path = Music_control;
+			path = MediaControl;
 			sourceTree = "<group>";
 		};
 		7262C6FC2BB18C5A0075B15F /* Preview Content */ = {
@@ -112,29 +69,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7262C7062BB18C5A0075B15F /* Music_controlTests */ = {
-			isa = PBXGroup;
-			children = (
-				7262C7072BB18C5A0075B15F /* Music_controlTests.swift */,
-			);
-			path = Music_controlTests;
-			sourceTree = "<group>";
-		};
-		7262C7102BB18C5A0075B15F /* Music_controlUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7262C7112BB18C5A0075B15F /* Music_controlUITests.swift */,
-				7262C7132BB18C5A0075B15F /* Music_controlUITestsLaunchTests.swift */,
-			);
-			path = Music_controlUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7262C6F12BB18C590075B15F /* Music_control */ = {
+		7262C6F12BB18C590075B15F /* Media Control */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7262C7172BB18C5A0075B15F /* Build configuration list for PBXNativeTarget "Music_control" */;
+			buildConfigurationList = 7262C7172BB18C5A0075B15F /* Build configuration list for PBXNativeTarget "Media Control" */;
 			buildPhases = (
 				7262C6EE2BB18C590075B15F /* Sources */,
 				7262C6EF2BB18C590075B15F /* Frameworks */,
@@ -144,46 +84,10 @@
 			);
 			dependencies = (
 			);
-			name = Music_control;
-			productName = Music_control;
-			productReference = 7262C6F22BB18C590075B15F /* Music_control.app */;
+			name = "Media Control";
+			productName = MediaControl;
+			productReference = 7262C6F22BB18C590075B15F /* Media Control.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7262C7022BB18C5A0075B15F /* Music_controlTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7262C71A2BB18C5A0075B15F /* Build configuration list for PBXNativeTarget "Music_controlTests" */;
-			buildPhases = (
-				7262C6FF2BB18C5A0075B15F /* Sources */,
-				7262C7002BB18C5A0075B15F /* Frameworks */,
-				7262C7012BB18C5A0075B15F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7262C7052BB18C5A0075B15F /* PBXTargetDependency */,
-			);
-			name = Music_controlTests;
-			productName = Music_controlTests;
-			productReference = 7262C7032BB18C5A0075B15F /* Music_controlTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7262C70C2BB18C5A0075B15F /* Music_controlUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7262C71D2BB18C5A0075B15F /* Build configuration list for PBXNativeTarget "Music_controlUITests" */;
-			buildPhases = (
-				7262C7092BB18C5A0075B15F /* Sources */,
-				7262C70A2BB18C5A0075B15F /* Frameworks */,
-				7262C70B2BB18C5A0075B15F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7262C70F2BB18C5A0075B15F /* PBXTargetDependency */,
-			);
-			name = Music_controlUITests;
-			productName = Music_controlUITests;
-			productReference = 7262C70D2BB18C5A0075B15F /* Music_controlUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,17 +102,9 @@
 					7262C6F12BB18C590075B15F = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					7262C7022BB18C5A0075B15F = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 7262C6F12BB18C590075B15F;
-					};
-					7262C70C2BB18C5A0075B15F = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 7262C6F12BB18C590075B15F;
-					};
 				};
 			};
-			buildConfigurationList = 7262C6ED2BB18C590075B15F /* Build configuration list for PBXProject "Music_control" */;
+			buildConfigurationList = 7262C6ED2BB18C590075B15F /* Build configuration list for PBXProject "Media Control" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7262C6F12BB18C590075B15F /* Music_control */,
-				7262C7022BB18C5A0075B15F /* Music_controlTests */,
-				7262C70C2BB18C5A0075B15F /* Music_controlUITests */,
+				7262C6F12BB18C590075B15F /* Media Control */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +132,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7262C7012BB18C5A0075B15F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7262C70B2BB18C5A0075B15F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,41 +140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7262C6F82BB18C590075B15F /* ContentView.swift in Sources */,
-				7262C6F62BB18C590075B15F /* Music_controlApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7262C6FF2BB18C5A0075B15F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7262C7082BB18C5A0075B15F /* Music_controlTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7262C7092BB18C5A0075B15F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7262C7142BB18C5A0075B15F /* Music_controlUITestsLaunchTests.swift in Sources */,
-				7262C7122BB18C5A0075B15F /* Music_controlUITests.swift in Sources */,
+				7262C6F62BB18C590075B15F /* MediaControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7262C7052BB18C5A0075B15F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7262C6F12BB18C590075B15F /* Music_control */;
-			targetProxy = 7262C7042BB18C5A0075B15F /* PBXContainerItemProxy */;
-		};
-		7262C70F2BB18C5A0075B15F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7262C6F12BB18C590075B15F /* Music_control */;
-			targetProxy = 7262C70E2BB18C5A0075B15F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7262C7152BB18C5A0075B15F /* Debug */ = {
@@ -417,12 +267,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = Music_control/Music_control.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MediaControl/MediaControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Music_control/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"MediaControl/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Media Control";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -437,8 +289,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "best.haoyu.Music-control";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = best.haoyu.mediaControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -454,12 +306,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = Music_control/Music_control.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MediaControl/MediaControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Music_control/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"MediaControl/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Media Control";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -474,8 +328,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "best.haoyu.Music-control";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = best.haoyu.mediaControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -485,96 +339,10 @@
 			};
 			name = Release;
 		};
-		7262C71B2BB18C5A0075B15F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "best.haoyu.Music-controlTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music_control.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Music_control";
-			};
-			name = Debug;
-		};
-		7262C71C2BB18C5A0075B15F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "best.haoyu.Music-controlTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music_control.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Music_control";
-			};
-			name = Release;
-		};
-		7262C71E2BB18C5A0075B15F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "best.haoyu.Music-controlUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Music_control;
-			};
-			name = Debug;
-		};
-		7262C71F2BB18C5A0075B15F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "best.haoyu.Music-controlUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Music_control;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7262C6ED2BB18C590075B15F /* Build configuration list for PBXProject "Music_control" */ = {
+		7262C6ED2BB18C590075B15F /* Build configuration list for PBXProject "Media Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7262C7152BB18C5A0075B15F /* Debug */,
@@ -583,29 +351,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7262C7172BB18C5A0075B15F /* Build configuration list for PBXNativeTarget "Music_control" */ = {
+		7262C7172BB18C5A0075B15F /* Build configuration list for PBXNativeTarget "Media Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7262C7182BB18C5A0075B15F /* Debug */,
 				7262C7192BB18C5A0075B15F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7262C71A2BB18C5A0075B15F /* Build configuration list for PBXNativeTarget "Music_controlTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7262C71B2BB18C5A0075B15F /* Debug */,
-				7262C71C2BB18C5A0075B15F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7262C71D2BB18C5A0075B15F /* Build configuration list for PBXNativeTarget "Music_controlUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7262C71E2BB18C5A0075B15F /* Debug */,
-				7262C71F2BB18C5A0075B15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

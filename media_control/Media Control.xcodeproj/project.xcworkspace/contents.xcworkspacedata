@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/haoyu/Documents/Projects/macos_app/media_control/Media Control.xcodeproj">
    </FileRef>
 </Workspace>

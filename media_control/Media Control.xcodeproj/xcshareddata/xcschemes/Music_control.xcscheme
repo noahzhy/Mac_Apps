@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7262C6F12BB18C590075B15F"
-               BuildableName = "Music_control.app"
-               BlueprintName = "Music_control"
-               ReferencedContainer = "container:Music_control.xcodeproj">
+               BuildableName = "Media Control.app"
+               BlueprintName = "Media Control"
+               ReferencedContainer = "container:Media Control.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7262C7022BB18C5A0075B15F"
-               BuildableName = "Music_controlTests.xctest"
-               BlueprintName = "Music_controlTests"
-               ReferencedContainer = "container:Music_control.xcodeproj">
+               BuildableName = "Media ControlTests.xctest"
+               BlueprintName = "Media ControlTests"
+               ReferencedContainer = "container:Media Control.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7262C70C2BB18C5A0075B15F"
-               BuildableName = "Music_controlUITests.xctest"
-               BlueprintName = "Music_controlUITests"
-               ReferencedContainer = "container:Music_control.xcodeproj">
+               BuildableName = "Media ControlUITests.xctest"
+               BlueprintName = "Media ControlUITests"
+               ReferencedContainer = "container:Media Control.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7262C6F12BB18C590075B15F"
-            BuildableName = "Music_control.app"
-            BlueprintName = "Music_control"
-            ReferencedContainer = "container:Music_control.xcodeproj">
+            BuildableName = "Media Control.app"
+            BlueprintName = "Media Control"
+            ReferencedContainer = "container:Media Control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7262C6F12BB18C590075B15F"
-            BuildableName = "Music_control.app"
-            BlueprintName = "Music_control"
-            ReferencedContainer = "container:Music_control.xcodeproj">
+            BuildableName = "Media Control.app"
+            BlueprintName = "Media Control"
+            ReferencedContainer = "container:Media Control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -97,6 +97,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "Media Control"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

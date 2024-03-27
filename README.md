@@ -20,7 +20,7 @@ Enjoy!
 
 ### Download
 
-Download the latest version of the application from the [releases page](./downloads/Media%20Control.zip).
+Download the latest version of the application from [here](./downloads/Media%20Control.zip).
 
 ## License
 
